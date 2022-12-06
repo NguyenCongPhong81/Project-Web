@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden;
+    overflow-y: initial !important;
+    margin: 0 !important;
+    padding: 0;
+    width: 100vw;
+    background-color: #f8f9fa;
+}
+.page-wrapper{
+    margin: 0 !important;
+    padding: 0;
+    width: 100vw;
+}
+.navbar{
+    margin-top: -37px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(93,94,98,1) 0%, rgba(235,236,236,1) 100%);
+}
+.navbar h2{
+    font-family: "Asap", sans-serif;
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.navbar li{
+    margin-top: -80px;
+    padding-right: 40px;
+}
+.navbar a{
+    font-family: "Asap", sans-serif;
+    color: #040716;
+    text-decoration: none
+}
+.menu-admin{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 1224px;
+}
+.menu-info h2{
+    padding-bottom: 20px;
+}
+.info-button{
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    background-color: #59bdf7;
+    color: #fff;
+    cursor: pointer;
+}
+.menu-info th{
+    padding-right: 120px;
+}
+.menu-info tr{
+    border-bottom: 2px solid black;
+}
+.menu-info td{
+    padding-top: 30px;
+}
+.update-menu{
+    padding: 10px;
+    border: none;
+    background-color: #52cc5e;
+    color: #fff;
+    cursor: pointer;
+}
+.delete-menu{
+    padding: 10px;
+    border: none;
+    background-color: #d72b2b;
+    color: #fff;
+    cursor: pointer;
+}

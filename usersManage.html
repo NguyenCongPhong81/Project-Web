@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Management</title>
+    <link rel="stylesheet" href="./CSS/user.css">
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <!--navbar-->
+        <div class="navbar">
+            <h2>Users Management</h2>
+            <div class="navbar-list">
+                <ul>
+                    <li>
+                        <a href="admin.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="usersManage.html" style="border-bottom: 2px solid black;">USER</a>
+                    </li>
+                    <li>
+                        <a href="menu-admin.html">MENU</a>
+                    </li>
+                    <li>
+                        <a href="oder-admin.html">ORDER</a>
+                    </li>
+                    <li>
+                        <a href="login.html">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="user-info">
+            <div class="table">
+                <lable class="">Name</lable>
+                <input type="text" class="inputTable" id="name"/>
+                <lable class="">Email</lable>
+                <input type="text" class="inputTable" id="email"/>
+                <lable class="">Password</lable>
+                <input type="text" class="inputTable" id="pass"/>
+                <lable class="">Number Phone</lable>
+                <input type="text" class="inputTable" id="number"/> 
+            </div>
+            <div class="user-control">
+                <button class="btn-add" id="add">Add</button>
+                <button class="btn-read" id="reset">Read</button>
+                <button class="btn-update" id ="update">Update</button>
+                <button class="btn-delete" id="delete">Delete</button>
+            </div>
+        </div>
+        <div class="parent" style="margin-top:50px">
+            <div class="header">Name</div>
+            <div class="header">Password</div>
+            <div class="header">Email</div>
+            <div class="header">Number Phone</div> 
+        </div>
+        
+        <div class="parent" id="ok"> 
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./JS/user.js"></script> 
+</body>
+</html>
